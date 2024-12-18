@@ -260,7 +260,6 @@ class Card_Payments extends Abstract_Payment_Gateway {
 
 			if ( ! empty( trim( $this->statement_descriptor ) ) ) {
 				$data['statement_descriptor_suffix'] = $this->statement_descriptor;
-				$data['statement_descriptor']        = $this->statement_descriptor;
 			}
 
 			if ( $this->should_save_card( $order_id ) ) {

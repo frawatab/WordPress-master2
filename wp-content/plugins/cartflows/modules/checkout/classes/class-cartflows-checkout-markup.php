@@ -1836,8 +1836,8 @@ class Cartflows_Checkout_Markup {
 	 * @return void
 	 */
 	public function add_custom_shipping_section() {
-		// Return if the current page is not the CartFlows Checkout page and return if any of the style of plugin decides not to load it.
-		if ( ! ( _is_wcf_checkout_type() || _is_wcf_doing_checkout_ajax() ) && ! apply_filters( 'cartflows_should_render_custom_shipping', true ) ) {
+		// Return if the current page is not a CartFlows Checkout page or if any plugin's styles are set to be skipped.
+		if ( ! ( _is_wcf_checkout_type() || _is_wcf_doing_checkout_ajax() ) || ! apply_filters( 'cartflows_should_render_custom_shipping', true ) ) {
 			return;
 		}
 		ob_start();

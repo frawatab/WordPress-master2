@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the CartFlows plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: CartFlows 2.1.3\n"
+"Project-Id-Version: CartFlows 2.1.4\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cartflows\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-11-19T07:16:49+00:00\n"
+"POT-Creation-Date: 2024-12-09T14:48:33+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: cartflows\n"
@@ -440,7 +440,7 @@ msgid "Successful!"
 msgstr ""
 
 #. Translators: %d stock amount
-#: admin-core/ajax/meta-data.php:137
+#: admin-core/ajax/meta-data.php:143
 msgid "Stock: %d"
 msgstr ""
 
@@ -727,94 +727,94 @@ msgstr ""
 msgid "Ultra-Bold 900"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:606
+#: admin-core/inc/admin-menu.php:608
 msgid "The default page builder is set to %1$s. Please %2$sinstall & activate%3$s the %4$s to start editing the steps."
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:945
+#: admin-core/inc/admin-menu.php:970
 msgid "Stripe Payments For WooCommerce"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:946
+#: admin-core/inc/admin-menu.php:971
 msgid "Accept credit card payments in your store with Stripe for WooCommerce."
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:957
+#: admin-core/inc/admin-menu.php:982
 msgid "PayPal Payments For WooCommerce"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:958
+#: admin-core/inc/admin-menu.php:983
 msgid "Accept payments in your store with PayPal for WooCommerce."
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:969
+#: admin-core/inc/admin-menu.php:994
 msgid "WooCommerce"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:970
+#: admin-core/inc/admin-menu.php:995
 msgid "WooCommerce is a customizable, open-source ecommerce platform built on WordPress."
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:981
+#: admin-core/inc/admin-menu.php:1006
 msgid "SureTriggers"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:982
+#: admin-core/inc/admin-menu.php:1007
 msgid "SureTriggers helps people automate their work by integrating multiple apps and plugins, allowing them to share data and perform tasks automatically."
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:994
+#: admin-core/inc/admin-menu.php:1019
 msgid "SureMembers"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:995
-#: admin-core/inc/admin-menu.php:1008
+#: admin-core/inc/admin-menu.php:1020
+#: admin-core/inc/admin-menu.php:1033
 msgid "Transform your WordPress form-building experience with stunning designs, ai integration, and no-code flexibility."
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:1007
+#: admin-core/inc/admin-menu.php:1032
 msgid "SureForms"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:1019
+#: admin-core/inc/admin-menu.php:1044
 #: wizard/assets/build/wizard-app.js:1
 msgid "Spectra"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:1020
+#: admin-core/inc/admin-menu.php:1045
 msgid "Power-up the Gutenberg editor with advanced and powerful blocks."
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:1031
+#: admin-core/inc/admin-menu.php:1056
 #: admin-core/assets/build/settings-app.js:29
 msgid "Cart Abandonment"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:1032
+#: admin-core/inc/admin-menu.php:1057
 msgid "Recover abandonded carts with ease in less than 10 minutes."
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:1043
+#: admin-core/inc/admin-menu.php:1068
 msgid "Variation Swatches for WooCommerce"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:1044
+#: admin-core/inc/admin-menu.php:1069
 msgid "Convert dropdown boxes into highly engaging variation swatches."
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:1060
+#: admin-core/inc/admin-menu.php:1085
 msgid "Astra"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:1061
+#: admin-core/inc/admin-menu.php:1086
 msgid "Astra is fast, fully customizable & beautiful WordPress theme suitable for blog, personal portfolio, business website and WooCommerce storefront."
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:1071
+#: admin-core/inc/admin-menu.php:1096
 msgid "Spectra One"
 msgstr ""
 
-#: admin-core/inc/admin-menu.php:1072
+#: admin-core/inc/admin-menu.php:1097
 msgid "Spectra One is a beautiful and modern WordPress theme built with the Full Site Editing (FSE) feature. It's a versatile theme that can be used for blogs, portfolios, businesses, and more."
 msgstr ""
 
@@ -1362,8 +1362,8 @@ msgid "If enabled, you will receive the weekly report emails of your store for t
 msgstr ""
 
 #: admin-core/inc/global-settings.php:1385
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:550
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:552
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:564
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:566
 #: modules/checkout/classes/layouts/class-cartflows-modern-checkout.php:174
 msgid "Email Address"
 msgstr ""
@@ -1528,21 +1528,21 @@ msgid "Settings"
 msgstr ""
 
 #: classes/class-cartflows-default-meta.php:163
-#: modules/checkout/classes/class-cartflows-checkout-markup.php:1874
-#: modules/checkout/classes/class-cartflows-checkout-markup.php:1883
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1220
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:474
+#: modules/checkout/classes/class-cartflows-checkout-markup.php:1875
+#: modules/checkout/classes/class-cartflows-checkout-markup.php:1884
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1223
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:488
 #: modules/checkout/templates/checkout/shipping-methods.php:69
 msgid "There are no shipping options available. Please ensure that your address has been entered correctly, or contact us if you need any help."
 msgstr ""
 
 #: classes/class-cartflows-default-meta.php:176
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1342
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1345
 msgid "Place Order"
 msgstr ""
 
 #: classes/class-cartflows-default-meta.php:367
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1317
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1320
 msgid "is required"
 msgstr ""
 
@@ -1550,7 +1550,7 @@ msgstr ""
 #: modules/beaver-builder/cartflows-bb-order-details/cartflows-bb-order-details.php:102
 #: modules/bricks/elements/class-cartflows-bricks-order-details-form.php:130
 #: modules/elementor/widgets/class-cartflows-el-order-details-form.php:161
-#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:466
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:457
 #: modules/thankyou/templates/instant-thankyou.php:76
 #: modules/gutenberg/build/blocks.js:7
 #: modules/gutenberg/dist/blocks.build.js:1
@@ -1558,7 +1558,7 @@ msgid "Thank you. Your order has been received."
 msgstr ""
 
 #: classes/class-cartflows-default-meta.php:809
-#: modules/optin/classes/class-cartflows-optin-meta-data.php:612
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:603
 #: modules/gutenberg/dist/blocks.build.js:1
 msgid "Submit"
 msgstr ""
@@ -1649,7 +1649,7 @@ msgid "Un-Checked"
 msgstr ""
 
 #: classes/class-cartflows-helper.php:1439
-#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:393
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:384
 #: admin-core/assets/build/editor-app.js:35
 #: admin-core/assets/build/settings-app.js:46
 msgid "Options"
@@ -3001,16 +3001,16 @@ msgstr ""
 msgid "Hide Order Summary"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-markup.php:1870
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:471
+#: modules/checkout/classes/class-cartflows-checkout-markup.php:1871
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:485
 #: modules/checkout/templates/checkout/shipping-methods.php:66
 msgid "Enter your address to view shipping options."
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-markup.php:1879
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:378
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:380
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:738
+#: modules/checkout/classes/class-cartflows-checkout-markup.php:1880
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:392
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:394
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:783
 #: modules/checkout/templates/checkout/instant-checkout-review-order.php:110
 #: modules/thankyou/templates/instant-thankyou-order-details.php:105
 #: admin-core/assets/build/editor-app.js:33
@@ -3322,332 +3322,332 @@ msgstr ""
 msgid "Current step's slug. Be careful while changing the slug. It will change the URL of the current step."
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1027
-#: modules/landing/classes/class-cartflows-landing-meta-data.php:120
-#: modules/optin/classes/class-cartflows-optin-meta-data.php:585
-#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:376
-msgid "Step Note"
-msgstr ""
-
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1035
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1026
 #: modules/flow/classes/class-cartflows-step-meta-base.php:80
-#: modules/landing/classes/class-cartflows-landing-meta-data.php:128
-#: modules/optin/classes/class-cartflows-optin-meta-data.php:593
-#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:384
+#: modules/landing/classes/class-cartflows-landing-meta-data.php:119
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:584
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:375
 msgid "Custom Script"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1039
-#: modules/landing/classes/class-cartflows-landing-meta-data.php:132
-#: modules/optin/classes/class-cartflows-optin-meta-data.php:596
-#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:387
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1030
+#: modules/landing/classes/class-cartflows-landing-meta-data.php:123
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:587
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:378
 msgid "Enter custom JS/CSS. Wrap your custom CSS in style tag."
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1044
-#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:457
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1035
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:448
 #: admin-core/assets/build/editor-app.js:17
 #: admin-core/assets/build/settings-app.js:17
 #: modules/gutenberg/dist/blocks.build.js:1
 msgid "Advanced"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1050
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1041
 msgid "Display product images"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1053
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1044
 msgid "Enabling this option will display the product's images in the order review section."
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1058
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1049
 msgid "Enable cart editing on checkout"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1061
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1052
 msgid "Users will able to remove products from the checkout page."
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1145
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1064
+#: modules/landing/classes/class-cartflows-landing-meta-data.php:134
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:644
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:496
+msgid "Step Note"
+msgstr ""
+
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1148
 msgid "Form Settings"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1150
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1153
 msgid "Enable Coupon Field"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1156
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1159
 msgid "Collapsible Coupon Field"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1172
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1175
 msgid "Enable Additional Field"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1178
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1181
 msgid "Collapsible Additional Field"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1194
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1197
 msgid "Enable Ship To Different Address"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1201
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1204
 msgid "Enable Google Address Autocomplete"
 msgstr ""
 
 #. translators: %1$s: link html start, %2$s: link html end
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1204
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1207
 msgid "Before enabling this option, make sure that you have added API key in Google Address Autocomplete Settings."
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1209
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1212
 msgid "Enable Custom Shipping Message"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1213
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1216
 msgid "Enable this option to show custom message when there are no shipping method is available."
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1217
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1220
 msgid "Shipping Message"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1221
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1224
 msgid "This message will be displayed when no shipping method is available."
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1238
-#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:428
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1241
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:419
 msgid "Order Summary Position"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1241
-#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:431
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1244
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:422
 msgid "Select the option to change the position of order summary in mobile devices."
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1245
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1248
 #: modules/elementor/widgets/class-cartflows-el-next-step-button.php:219
-#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:435
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:426
 msgid "Top"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1249
-#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:439
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1252
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:430
 msgid "Bottom"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1263
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1266
 msgid "Form Headings"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1270
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1273
 msgid "Billing Details"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1272
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1275
 msgid "Billing details"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1277
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1280
 msgid "Shipping Details"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1279
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1282
 msgid "Ship to a different address?"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1284
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1287
 #: modules/thankyou/templates/instant-thankyou-your-product.php:21
 msgid "Your Order"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1286
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1289
 msgid "Your order"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1291
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1294
 msgid "Customer Information"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1293
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1296
 #: modules/checkout/classes/layouts/class-cartflows-modern-checkout.php:159
 msgid "Customer information"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1294
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1302
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1297
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1305
 msgid "This heading will be displayed only on modern checkout style."
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1299
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1301
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:765
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1302
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1304
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:810
 #: modules/checkout/classes/layouts/class-cartflows-modern-checkout.php:276
 #: modules/thankyou/templates/instant-thankyou-order-details.php:124
 msgid "Payment"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1307
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1310
 msgid "Enable Field validation error message"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1310
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1313
 msgid "This is the error message appended to the field name to form a error message."
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1315
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1318
 msgid "Validation error message"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1333
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1336
 msgid "Place Order Button"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1339
-#: modules/optin/classes/class-cartflows-optin-meta-data.php:609
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1342
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:600
 #: modules/gutenberg/build/blocks.js:11
 msgid "Button Text"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1343
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1346
 msgid "It will change the default Place Order Button text on checkout page."
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1348
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1351
 msgid "Enable Lock Icon"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1351
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1354
 msgid "This will show the lock icon on the place order button on checkout page."
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1357
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1360
 msgid "Enable Price Display"
 msgstr ""
 
-#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1360
+#: modules/checkout/classes/class-cartflows-checkout-meta-data.php:1363
 msgid "This will show the cart total from the place order button."
 msgstr ""
 
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:259
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:260
 msgid "Home"
 msgstr ""
 
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:381
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:395
 msgid "This heading will be displayed only on Instant checkout."
 msgstr ""
 
 #. translators: %d: shipping package number
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:442
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:456
 #: modules/checkout/templates/checkout/shipping-methods.php:17
 msgctxt "shipping packages"
 msgid "Shipping %d"
 msgstr ""
 
 #. translators: %d: shipping package number
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:442
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:456
 #: modules/checkout/templates/checkout/shipping-methods.php:17
 msgctxt "shipping packages"
 msgid "Shipping"
 msgstr ""
 
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:469
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:483
 #: modules/checkout/templates/checkout/shipping-methods.php:64
 msgid "Shipping costs are calculated during checkout."
 msgstr ""
 
 #. Translators: $s shipping destination.
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:488
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:502
 #: modules/checkout/templates/checkout/shipping-methods.php:72
 msgid "No shipping options were found for %s."
 msgstr ""
 
 #. Translators: $s shipping destination.
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:492
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:506
 #: modules/checkout/templates/checkout/shipping-methods.php:73
 msgid "Enter a different address"
 msgstr ""
 
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:535
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:549
 #: modules/thankyou/templates/instant-thankyou-order-details.php:63
 msgid "Contact"
 msgstr ""
 
 #. translators: %1$s: Link HTML start, %2$s Link HTML End
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:537
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:551
 msgid "%1$1s Log in%2$2s"
 msgstr ""
 
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:567
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:581
 #: modules/checkout/classes/layouts/class-cartflows-modern-checkout.php:192
 msgid "Password"
 msgstr ""
 
 #. translators: %s: asterisk mark
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:569
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:583
 #: modules/checkout/classes/layouts/class-cartflows-modern-checkout.php:194
 msgid "Password %s"
 msgstr ""
 
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:575
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:589
 #: modules/checkout/classes/layouts/class-cartflows-modern-checkout.php:200
 msgid "Login"
 msgstr ""
 
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:576
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:590
 #: modules/checkout/classes/layouts/class-cartflows-modern-checkout.php:201
 msgid "Lost your password?"
 msgstr ""
 
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:581
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:595
 #: modules/checkout/classes/layouts/class-cartflows-modern-checkout.php:206
 msgid "Login is optional, you can continue with your order below."
 msgstr ""
 
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:593
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:607
 #: modules/checkout/classes/layouts/class-cartflows-modern-checkout.php:218
 msgid "Create an account?"
 msgstr ""
 
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:608
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:622
 #: modules/checkout/classes/layouts/class-cartflows-modern-checkout.php:233
 msgid "Account username"
 msgstr ""
 
 #. translators: %s: asterisk mark
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:610
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:624
 #: modules/checkout/classes/layouts/class-cartflows-modern-checkout.php:235
 msgid "Account username %s"
 msgstr ""
 
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:622
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:636
 #: modules/checkout/classes/layouts/class-cartflows-modern-checkout.php:247
 msgid "Create account password"
 msgstr ""
 
 #. translators: %s: asterisk mark
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:624
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:638
 #: modules/checkout/classes/layouts/class-cartflows-modern-checkout.php:249
 msgid "Create account password %s"
 msgstr ""
 
 #. translators: %1$s: username, %2$s emailid
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:633
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:647
 #: modules/checkout/classes/layouts/class-cartflows-modern-checkout.php:258
 msgid " Welcome Back %1$s ( %2$s )"
 msgstr ""
 
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:857
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:902
 msgid "Looks like you haven't added any items to cart yet — start shopping to fill it up!"
 msgstr ""
 
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:869
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:914
 msgid "Your Cart is Currently Empty."
 msgstr ""
 
-#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:871
+#: modules/checkout/classes/layouts/class-cartflows-instant-checkout.php:916
 msgid "Start Shopping"
 msgstr ""
 
@@ -4239,33 +4239,33 @@ msgstr ""
 msgid "Position"
 msgstr ""
 
-#: modules/optin/classes/class-cartflows-optin-meta-data.php:603
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:594
 msgid "Optin Settings"
 msgstr ""
 
-#: modules/optin/classes/class-cartflows-optin-meta-data.php:617
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:608
 msgid "Pass Fields as URL Parameters"
 msgstr ""
 
-#: modules/optin/classes/class-cartflows-optin-meta-data.php:620
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:611
 msgid "You can pass specific fields from the form to next step as URL query parameters."
 msgstr ""
 
-#: modules/optin/classes/class-cartflows-optin-meta-data.php:625
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:616
 msgid "Enter form field"
 msgstr ""
 
-#: modules/optin/classes/class-cartflows-optin-meta-data.php:628
-#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:474
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:619
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:465
 msgid "Enter comma seprated field name. E.g. first_name, last_name"
 msgstr ""
 
-#: modules/optin/classes/class-cartflows-optin-meta-data.php:629
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:620
 msgid "Fields to pass, separated by commas"
 msgstr ""
 
 #. translators: %s: link
-#: modules/optin/classes/class-cartflows-optin-meta-data.php:631
+#: modules/optin/classes/class-cartflows-optin-meta-data.php:622
 msgid "You can pass field value as a URL parameter to the next step. %1$sLearn More >>%2$s"
 msgstr ""
 
@@ -4315,39 +4315,39 @@ msgstr ""
 msgid "Background color of right side column for Instant Thank You Layout."
 msgstr ""
 
-#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:399
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:390
 msgid "Enable Order Overview"
 msgstr ""
 
-#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:406
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:397
 msgid "Enable Order Details"
 msgstr ""
 
-#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:413
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:404
 msgid "Enable Billing Details"
 msgstr ""
 
-#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:420
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:411
 msgid "Enable Shipping Details"
 msgstr ""
 
-#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:463
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:454
 msgid "Thank You Page Text"
 msgstr ""
 
-#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:471
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:462
 msgid "Redirect After Purchase"
 msgstr ""
 
-#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:479
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:470
 msgid "Redirect Link"
 msgstr ""
 
-#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:482
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:473
 msgid "https://"
 msgstr ""
 
-#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:483
+#: modules/thankyou/classes/class-cartflows-thankyou-meta-data.php:474
 msgid "Users will be redirected to this URL instead of thank you page."
 msgstr ""
 
@@ -4603,24 +4603,20 @@ msgid "Reset"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:1
-#: admin-core/assets/build/settings-app.js:1
 msgid "Image Preview"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:1
-#: admin-core/assets/build/settings-app.js:1
 #: admin-core/assets/build/settings-app.js:19
 msgid "Upload a file"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:1
-#: admin-core/assets/build/settings-app.js:1
 #: admin-core/assets/build/settings-app.js:19
 msgid "or drag and drop"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:1
-#: admin-core/assets/build/settings-app.js:1
 msgid "PNG, JPG, GIF up to 10MB"
 msgstr ""
 
@@ -4678,12 +4674,10 @@ msgid "Reset Permalinks Settings"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:11
-#: admin-core/assets/build/editor-app.js:17
 #: admin-core/assets/build/editor-app.js:18
 #: admin-core/assets/build/editor-app.js:57
 #: admin-core/assets/build/editor-app.js:66
 #: admin-core/assets/build/settings-app.js:11
-#: admin-core/assets/build/settings-app.js:17
 #: admin-core/assets/build/settings-app.js:31
 #: admin-core/assets/build/settings-app.js:68
 #: admin-core/assets/build/settings-app.js:76
@@ -4909,7 +4903,17 @@ msgstr ""
 
 #: admin-core/assets/build/editor-app.js:17
 #: admin-core/assets/build/settings-app.js:17
-msgid "Valid License"
+msgid "What's New?"
+msgstr ""
+
+#: admin-core/assets/build/editor-app.js:17
+#: admin-core/assets/build/settings-app.js:17
+msgid "Unlicensed"
+msgstr ""
+
+#: admin-core/assets/build/editor-app.js:17
+#: admin-core/assets/build/settings-app.js:17
+msgid "Licensed"
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:17
@@ -5589,7 +5593,12 @@ msgstr ""
 
 #: admin-core/assets/build/editor-app.js:33
 #: admin-core/assets/build/settings-app.js:44
-msgid "Email field is not editable when using the Modern Checkout Style"
+msgid "Email field is not editable when using the Modern Checkout Style."
+msgstr ""
+
+#: admin-core/assets/build/editor-app.js:33
+#: admin-core/assets/build/settings-app.js:44
+msgid "Company field will not visible when using the Instant Checkout Style."
 msgstr ""
 
 #: admin-core/assets/build/editor-app.js:33
@@ -5746,7 +5755,7 @@ msgstr ""
 
 #: admin-core/assets/build/editor-app.js:38
 #: admin-core/assets/build/settings-app.js:49
-msgid "WooCommerce is required!"
+msgid "WooCommerce is Required!"
 msgstr ""
 
 #. translators: %s: step type
@@ -7866,6 +7875,10 @@ msgstr ""
 
 #: wizard/assets/build/wizard-app.js:3
 msgid "Redirecting.."
+msgstr ""
+
+#: wizard/assets/build/wizard-app.js:3
+msgid "Skip"
 msgstr ""
 
 #: wizard/assets/build/wizard-app.js:3

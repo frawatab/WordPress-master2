@@ -69,7 +69,7 @@ if ( ! class_exists( 'CARTFLOWS_CA_Loader' ) ) {
 
 			add_action( 'plugins_loaded', array( $this, 'load_plugin' ), 99 );
 
-			add_action( 'plugins_loaded', array( $this, 'load_cf_textdomain' ) );
+			add_action( 'init', array( $this, 'load_cf_textdomain' ) );
 
 			// Let WooCommerce know, Plugin is compatible with HPOS.
 			add_action( 'before_woocommerce_init', array( $this, 'declare_woo_hpos_compatibility' ) );
@@ -84,7 +84,7 @@ if ( ! class_exists( 'CARTFLOWS_CA_Loader' ) ) {
 			define( 'CARTFLOWS_CA_BASE', plugin_basename( CARTFLOWS_CA_FILE ) );
 			define( 'CARTFLOWS_CA_DIR', plugin_dir_path( CARTFLOWS_CA_FILE ) );
 			define( 'CARTFLOWS_CA_URL', plugins_url( '/', CARTFLOWS_CA_FILE ) );
-			define( 'CARTFLOWS_CA_VER', '1.3.0' );
+			define( 'CARTFLOWS_CA_VER', '1.3.1' );
 
 			define( 'CARTFLOWS_CA_SLUG', 'cartflows_ca' );
 

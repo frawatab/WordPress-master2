@@ -17,7 +17,7 @@ defined( 'ABSPATH' ) || exit;
 
 		$show_shipping = ! wc_ship_to_billing_address_only() && $order->needs_shipping_address() && $billing_address !== $shipping_address;
 
-		$shop_url       = apply_filters( 'woocommerce_continue_shopping_redirect', wc_get_raw_referer() ? wp_validate_redirect( wc_get_raw_referer(), '' ) : wc_get_page_permalink( 'shop' ) );
+		$shop_url       = apply_filters( 'woocommerce_continue_shopping_redirect', wc_get_page_permalink( 'shop' ) );
 		$downloads      = $order->get_downloadable_items();
 		$show_downloads = $order->has_downloadable_item();
 

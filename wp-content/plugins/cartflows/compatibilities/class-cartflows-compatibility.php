@@ -147,14 +147,14 @@ if ( ! class_exists( 'Cartflows_Compatibility' ) ) {
 			}
 
 			$page_builder = Cartflows_Helper::get_common_setting( 'default_page_builder' );
-			
+
 			if ( $this->is_bricks_enabled() ) {
 				include_once CARTFLOWS_DIR . 'compatibilities/themes/bricks/class-cartflows-bricks-compatibility.php';
 				if ( 'bricks-builder' === $page_builder ) {
 					include_once CARTFLOWS_DIR . 'modules/bricks/class-cartflows-bricks-elements-loader.php';
 				}
 			}
-			
+
 
 			if ( defined( 'SURE_TRIGGERS_VER' ) ) {
 				require_once CARTFLOWS_DIR . 'compatibilities/plugins/class-cartflows-suretriggers-compatibility.php';
@@ -227,7 +227,7 @@ if ( ! class_exists( 'Cartflows_Compatibility' ) ) {
 		 */
 		public function is_page_builder_preview() {
 
-			if ( $this->is_elementor_preview_mode() || $this->is_bb_preview_mode() || $this->is_divi_builder_preview() ) {
+			if ( $this->is_elementor_preview_mode() || $this->is_bb_preview_mode() || $this->is_divi_builder_preview() || $this->is_bricks_preview_mode() ) {
 				return true;
 			}
 
@@ -439,6 +439,15 @@ if ( ! class_exists( 'Cartflows_Compatibility' ) ) {
 			return false;
 		}
 
+		/**
+		 * Check if bricks preview mode is on.
+		 *
+		 * @return boolean
+		 */
+		public function is_bricks_preview_mode() {
+
+			return $this->is_bricks_enabled() && function_exists( 'bricks_is_builder' ) && bricks_is_builder();
+		}
 
 		/**
 		 *  Check for thrive architect edit page.

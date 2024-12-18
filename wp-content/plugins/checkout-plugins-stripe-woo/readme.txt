@@ -2,8 +2,8 @@
 Contributors: brainstormforce
 Tags: stripe, credit card, apple pay, google pay, express checkout
 Requires at least: 5.4
-Tested up to: 6.6
-Stable tag: 1.10.0
+Tested up to: 6.7
+Stable tag: 1.10.1
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -115,6 +115,10 @@ We understand the need for a quality product backed by dedicated support that ca
 4. Express Checkout Button on Checkout Page
 
 == Changelog ==
+
+= 1.10.1 - Friday, 13th December 2024 =
+* Fix: The deprecated statement_descriptor has been removed as it was only kept for backward compatibility.
+* Fix: Resolved an incorrect usage error for the _load_textdomain_just_in_time function.
 
 = 1.10.0 - TUESDAY, 27th August 2024 =
 * New: Enabled Klarna payment method support for several more countries.

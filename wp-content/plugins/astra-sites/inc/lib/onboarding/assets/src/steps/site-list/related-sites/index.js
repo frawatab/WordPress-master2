@@ -33,6 +33,10 @@ const RelatedSites = ( { sites } ) => {
 		);
 	}
 
+	if ( ! defaultSites.length ) {
+		return null;
+	}
+
 	return (
 		<>
 			<div className="st-sites-grid st-related-sites-grid">

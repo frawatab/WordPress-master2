@@ -1724,7 +1724,7 @@ if ( ! class_exists( 'Astra_Sites' ) ) :
 					'staging_connected' => apply_filters( 'astra_sites_staging_connected', '' ),
 					'isRTLEnabled' => is_rtl(),
 					/* translators: %s Anchor link to support URL. */
-					'support_text' => sprintf( __( 'Please report this error %1$shere%2$s, so we can fix it.', 'astra-sites' ), '<a href="https://wpastra.com/support/open-a-ticket/" target="_blank">', '</a>' ),
+					'support_text' => sprintf( __( 'Please report this error%1$s here %2$s, so we can fix it.', 'astra-sites' ), '<a href="https://wpastra.com/support/open-a-ticket/" target="_blank">', '</a>' ),
 					'surecart_store_exists' => isset( $surecart_store_exist ) ? $surecart_store_exist : false,
 					'default_ai_categories' => $this->get_default_ai_categories(),
 					'block_color_palette'     => $this->get_block_palette_colors(),

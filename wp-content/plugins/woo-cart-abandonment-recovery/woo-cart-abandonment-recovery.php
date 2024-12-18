@@ -3,12 +3,12 @@
  * Plugin Name: WooCommerce Cart Abandonment Recovery
  * Plugin URI: https://cartflows.com/
  * Description: Recover your lost revenue. Capture email address of users on the checkout page and send follow up emails if they don't complete the purchase.
- * Version: 1.3.0
+ * Version: 1.3.1
  * Author: CartFlows Inc
  * Author URI: https://cartflows.com/
  * Text Domain: woo-cart-abandonment-recovery
  * WC requires at least: 3.0
- * WC tested up to: 8.6.1
+ * WC tested up to: 9.4.3
  *
  * @package Woocommerce-Cart-Abandonment-Recovery
  */

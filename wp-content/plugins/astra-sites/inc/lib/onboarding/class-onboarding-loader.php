@@ -187,7 +187,7 @@ class Intelligent_Starter_Templates_Loader {
 		wp_enqueue_media();
 		wp_enqueue_script( 'starter-templates-onboarding' );
 		// Set the script translations.
-		wp_set_script_translations( 'starter-templates-onboarding', 'astra-sites' );
+		wp_set_script_translations( 'starter-templates-onboarding', 'astra-sites', ASTRA_SITES_DIR . 'languages' );
 		
 		wp_enqueue_style( 'starter-templates-onboarding', INTELLIGENT_TEMPLATES_URI . 'assets/dist/onboarding/style-main.css', array(), $asset['version'] );
 		wp_style_add_data( 'starter-templates-onboarding', 'rtl', 'replace' );

@@ -730,3 +730,14 @@ function wcf_is_current_theme_is_fse_theme() {
 
 	return false;
 }
+
+/**
+ * Checks if deprecated step notes should be shown.
+ * 
+ * This function applies a filter to determine if deprecated step notes should be displayed.
+ * 
+ * @return bool Returns true if deprecated step notes should be shown, false otherwise.
+ */
+function wcf_show_deprecated_step_notes() {
+	return apply_filters( 'cartflows_show_deprecated_step_notes', false );
+}

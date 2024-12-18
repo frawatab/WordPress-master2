@@ -32,7 +32,6 @@ class Astra_Sites_ZipWP_Integration {
      */
     public function __construct() {
         $this->define_constants();
-        add_action( 'admin_init' , array( $this, 'save_auth_token' )  );
         add_action( 'wp_enqueue_scripts', array( $this, 'register_preview_scripts' ) );
     }
 
@@ -128,48 +127,6 @@ class Astra_Sites_ZipWP_Integration {
 
         if ( ! defined( 'ZIPWP_API' ) ) {
             define( 'ZIPWP_API', apply_filters( 'ast_block_templates_zip_api_url', 'https://api.zipwp.com/api' ) );
-        }
-    }
-
-    /**
-     * Save auth token
-     *
-     * @since 4.0.0
-     * @return void
-     */
-    public function save_auth_token() {
-
-        global $pagenow;
-
-        if( ! is_admin() || ! isset( $_GET['page'] ) ) {
-            return;
-        }
-
-        // Check if we are on the starter templates page.
-        if( 'themes.php' !== $pagenow || 'starter-templates' !== $_GET['page'] ) {
-            return;
-        }
-
-        if ( isset( $_GET['token'] ) && isset( $_GET['email'] ) && isset( $_GET['credit_token'] ) ) {
-
-            $spec_ai_settings = Astra_Sites_ZipWP_Helper::get_setting();
-
-			// Update the auth token if needed.
-			if ( isset( $_GET['credit_token'] ) && is_string( $_GET['credit_token'] ) ) {
-				$spec_ai_settings['auth_token'] = Astra_Sites_ZipWP_Helper::encrypt( sanitize_text_field( $_GET['credit_token'] ) );
-			}
-
-			// Update the Zip token if needed.
-			if ( isset( $_GET['token'] ) && is_string( $_GET['token'] ) ) {
-				$spec_ai_settings['zip_token'] = Astra_Sites_ZipWP_Helper::encrypt( sanitize_text_field( $_GET['token'] ) );
-			}
-
-			// Update the email if needed.
-			if ( isset( $_GET['email'] ) && is_string( $_GET['email'] ) ) {
-				$spec_ai_settings['email'] = sanitize_email( $_GET['email'] );
-			}
-
-			update_option( 'zip_ai_settings', $spec_ai_settings );
         }
     }
 

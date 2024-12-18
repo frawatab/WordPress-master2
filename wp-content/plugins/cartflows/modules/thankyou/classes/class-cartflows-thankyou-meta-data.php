@@ -370,15 +370,6 @@ class Cartflows_Thankyou_Meta_Data extends Cartflows_Step_Meta_Base {
 							'value'         => get_post_field( 'post_name' ),
 							'display_align' => 'vertical',
 						),
-						'step-note'                => array(
-							'type'          => 'textarea',
-							'name'          => 'wcf-step-note',
-							'label'         => __( 'Step Note', 'cartflows' ),
-							'value'         => get_post_meta( $step_id, 'wcf-step-note', true ),
-							'rows'          => 2,
-							'cols'          => 38,
-							'display_align' => 'vertical',
-						),
 						'wcf-thanku-custom-script' => array(
 							'type'          => 'textarea',
 							'label'         => __( 'Custom Script', 'cartflows' ),
@@ -497,6 +488,18 @@ class Cartflows_Thankyou_Meta_Data extends Cartflows_Step_Meta_Base {
 
 			),
 		);
+
+		if ( wcf_show_deprecated_step_notes() ) {
+			$settings['settings']['general']['fields']['step-note'] = array(
+				'type'          => 'textarea',
+				'name'          => 'wcf-step-note',
+				'label'         => __( 'Step Note', 'cartflows' ),
+				'value'         => get_post_meta( $step_id, 'wcf-step-note', true ),
+				'rows'          => 2,
+				'cols'          => 38,
+				'display_align' => 'vertical',
+			);
+		}
 
 		return apply_filters( 'cartflows_admin_thank_you_editor_settings', $settings, $options, $step_id );
 	}

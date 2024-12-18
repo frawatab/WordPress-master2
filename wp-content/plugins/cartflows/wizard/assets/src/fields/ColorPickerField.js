@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import reactCSS from 'reactcss';
 import './ColorPickerField.scss';
 import { __ } from '@wordpress/i18n';
+import { Tooltip } from '@WizardFields';
 import { SwatchIcon, ArrowPathIcon } from '@heroicons/react/24/outline';
 
 import { SketchPicker } from 'react-color';
@@ -124,11 +125,16 @@ function ColorPickerField( props ) {
 									<span
 										className={ `wcf-colorpicker-reset absolute !p-0 -left-2 -top-1.5 bg-white rounded-full text-gray-600` }
 										onClick={ handleResetColor }
-										title={ __( 'Reset', 'cartflows' ) }
 									>
-										<ArrowPathIcon
-											className="w-4 h-5 stroke-2"
-											aria-hidden="true"
+										<Tooltip
+											text={ __( 'Reset', 'cartflows' ) }
+											classes={ 'text-gray-400 !ml-0' }
+											icon={
+												<ArrowPathIcon
+													className="w-4 h-5 stroke-2 text-gray-500 hover:text-gray-600 active:text-gray-600"
+													aria-hidden="true"
+												/>
+											}
 										/>
 									</span>
 								) }

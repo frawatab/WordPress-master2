@@ -150,8 +150,8 @@ if ( ! class_exists( 'Cartflows_Astra_Compatibility' ) ) :
 				}
 
 				// Removed the scroll to top button if template type is not default.
-				if ( class_exists( 'Astra_Ext_Scroll_To_Top_Markup' ) ) {
-					$astra_ext_scroll_to_top = Astra_Ext_Scroll_To_Top_Markup::get_instance();
+				if ( class_exists( 'Astra_Scroll_To_Top_Loader' ) ) {
+					$astra_ext_scroll_to_top = Astra_Scroll_To_Top_Loader::get_instance();
 					remove_action( 'wp_footer', array( $astra_ext_scroll_to_top, 'html_markup_loader' ) );
 				}
 			}

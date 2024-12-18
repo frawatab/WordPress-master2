@@ -543,6 +543,7 @@ class AdminMenu {
 				'plugin_installer_nonce'            => wp_create_nonce( 'updates' ),
 				'instant_checkout_notice_status'    => \Cartflows_Helper::get_admin_settings_option( 'wcf-instant-checkout-notice-skipped', false, false ),
 				'cartflows_admin_notices'           => $this->cartflows_admin_notices(),
+				'whats_new_rss_feed'                => $this->get_whats_new_rss_feeds_data(),
 			)
 		);
 
@@ -567,7 +568,7 @@ class AdminMenu {
 
 		$notices = $this->page_builder_plugin_notices( $notices );
 		$notices = apply_filters( 'cartflows_admin_notices', $notices );
-		
+
 		return $notices;
 	}
 
@@ -585,20 +586,21 @@ class AdminMenu {
 		if ( isset( \Cartflows_Helper::get_plugins_groupby_page_builders()[ $default_page_builder ] ) ) {
 			$required_plugins = \Cartflows_Helper::get_plugins_groupby_page_builders()[ $default_page_builder ];
 		}
-		
-		$plugin_title         = '';
+
 		$page_builder_plugins = isset( $required_plugins['plugins'] ) ? $required_plugins['plugins'] : array();
 		$any_inactive         = false;
 		if ( ! empty( $page_builder_plugins ) ) {
 			foreach ( $page_builder_plugins as $plugin ) {
 				if ( 'activated' !== $plugin['status'] ) {
 					$any_inactive = true;
-					$plugin_title = $plugin['slug'];
 					break; // Stop checking if we found an active plugin.
 				}
 			}
 		}
-		
+
+		// Get the titles.
+		$titles = $this->generate_plugin_titles( $page_builder_plugins );
+
 		if ( 'yes' === $required_plugins_missing && $any_inactive ) {
 			// Translators: %1$s is the required page builder title, %2$s is the opening anchor tag to plugins.php, %3$s is the closing anchor tag, %4$s is the plugin title.
 			$notices[] = '<div class="wcf-payment-gateway-notice--text"><p class="text-sm text-yellow-700">' . wp_kses_post(
@@ -607,16 +609,39 @@ class AdminMenu {
 					'<span class="capitalize">' . esc_html( $required_plugins['title'] ) . '</span>',
 					'<span class="font-medium"><a href="' . esc_url( admin_url() . 'plugins.php' ) . '" class="underline text-yellow-700 hover:text-yellow-600" target="_blank">',
 					'</a></span>',
-					'<span class="capitalize">' . esc_html( $plugin_title ) . '</span>'
+					'<span class="capitalize">' . esc_html( implode( ', ', $titles ) ) . '</span>'
 				)
 			) . '</p></div>';
-			
+
 		}
 		return $notices;
-		
+
 	}
-	
-	
+
+	/**
+	 * Get required plugin titles from their slugs.
+	 *
+	 * @since x.x.x
+	 * @param array $plugins plugins array.
+	 * @return array
+	 */
+	public function generate_plugin_titles( $plugins ) {
+		$titles = array();
+
+		if ( ! is_array( $plugins ) || empty( $plugins ) ) {
+			return $titles;
+		}
+
+		foreach ( $plugins as $plugin ) {
+			$slug_parts = explode( '-', $plugin['slug'] );
+			$title      = implode( ' ', array_map( 'ucfirst', $slug_parts ) ); // Convert each part to title case.
+			$titles[]   = $title;
+		}
+
+		return $titles;
+	}
+
+
 	/**
 	 * Get required plugin status.
 	 */
@@ -1079,6 +1104,27 @@ class AdminMenu {
 						),
 					),
 				)
+			),
+		);
+	}
+
+	/**
+	 * Prepare the array of RSS Feeds of CartFlows for Whats New slide-our pannel.
+	 *
+	 * @since x.x.x
+	 * @return array The prepared array of RSS feeds.
+	 */
+	public function get_whats_new_rss_feeds_data() {
+		return array(
+			array(
+				'key'   => 'cartflows',
+				'label' => 'CartFlows',
+				'url'   => 'https://cartflows.com/product/cartflows/feed/',
+			),
+			array(
+				'key'   => 'cartflows-pro',
+				'label' => 'CartFlows Pro',
+				'url'   => 'https://cartflows.com/product/cartflows-pro/feed',
 			),
 		);
 	}

@@ -5,7 +5,7 @@ Tags: Elementor,Templates,Gutenberg,Block Editor,Astra Starter Sites
 Requires at least: 6.6
 Requires PHP: 7.4
 Tested up to: 6.7
-Stable tag: 4.4.9
+Stable tag: 4.4.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -247,6 +247,16 @@ Once your website is generated, you have complete control over its content and l
 
 == Changelog ==
 
+v4.4.10 - 16-December-2024
+- New:
+    - Expanded plugin accessibility with translations in 7 new languages: [ Spanish, German, Dutch, Frensh, Italian, Polish, Portuguese ]
+    - AI Assistant: The AI Assistant is now Location Aware.
+- Improvements:
+    - AI Assistant: Revamped the entire UI of the Assistant Sidebar.
+    - Enhanced NPS Survey styles to ensure seamless compatibility with other plugins.
+- Fix:
+    - Removed redundant code related to authentication to enhance security and simplify maintenance.  
+    
 v4.4.9 - 02-December-2024
 - Improvements:
     - AI Builder: Enhanced error handling in the import process with clearer error messages.

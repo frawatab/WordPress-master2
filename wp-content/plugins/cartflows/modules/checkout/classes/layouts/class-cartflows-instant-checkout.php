@@ -678,6 +678,8 @@ class Cartflows_Instant_Checkout {
 		if ( wp_doing_ajax() || ( isset( $_GET['wc-ajax'] ) && 'checkout' === $_GET['wc-ajax'] ) ) { //phpcs:ignore WordPress.Security.NonceVerification.Recommended
 			return $checkout_fields;
 		}
+		// Add default class for address fields.
+		$checkout_fields = $this->add_default_class_for_address_fields( $checkout_fields, $checkout_id );
 
 		// Unset defalut billing email from Billing Details.
 		unset( $checkout_fields['billing']['billing_company'] );
@@ -687,6 +689,35 @@ class Cartflows_Instant_Checkout {
 
 		return $checkout_fields;
 	}
+
+	/**
+	 * Add default class for address fields.
+	 *
+	 * @param array $checkout_fields checkout fields array.
+	 * @param int   $checkout_id checkout ID.
+	 * @return array $checkout_fields updated checkout fields array.
+	 */
+	public function add_default_class_for_address_fields( $checkout_fields, $checkout_id ) {
+		// Validate checkout type.
+		if ( ! _is_wcf_checkout_type() ) {
+			return $checkout_fields;
+		}
+		$flow_id = (int) wcf()->utils->get_flow_id_from_step_id( $checkout_id );
+		
+		// Validate custom fields are enabled and flow ID.
+		if ( _is_wcf_meta_custom_checkout( $checkout_id ) || empty( $flow_id ) || ! Cartflows_Helper::is_instant_layout_enabled( $flow_id ) ) {
+			return $checkout_fields;
+		}
+		// Add default classes for address fields.
+		if ( isset( $checkout_fields['billing']['billing_address_1'] ) && is_array( $checkout_fields['billing']['billing_address_1'] ) ) {
+			$checkout_fields['billing']['billing_address_1']['class'][] = 'wcf-column-100';
+		}
+		if ( isset( $checkout_fields['billing']['billing_address_2'] ) && is_array( $checkout_fields['billing']['billing_address_2'] ) ) {
+			$checkout_fields['billing']['billing_address_2']['class'][] = 'wcf-column-100';
+		}
+		return $checkout_fields;
+	}
+		
 
 	/**
 	 * Add Customer Information Section.
