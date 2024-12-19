@@ -7,7 +7,7 @@ import { RadioGroup } from '@headlessui/react';
 import { ColorPickerField } from '@WizardFields';
 import { sendPostMessage } from '@Utils/Helpers';
 import ReactHtmlParser from 'react-html-parser';
-import { XMarkIcon, ArrowRightIcon } from '@heroicons/react/24/outline';
+import { ArrowRightIcon, ArrowLeftIcon } from '@heroicons/react/24/outline';
 
 import GlobalFlowItem from './components/GlobalFlowItem';
 import UploadSiteLogo from './components/UploadSiteLogo';
@@ -369,13 +369,29 @@ function GlobalCheckout() {
 				<div className="wcf-bg--overlay w-full h-full bg-white absolute before:block top-0 right-0 left-0 z-50">
 					<div className="wcf-sidebar bg-[#F7F7F9] shadow w-full">
 						<div className="wcf-sidebar--header">
-							<div className="wcf-template-name">
-								<p className="text-[#6B7280]">
-									{ __( 'Selected Template:', 'cartflows' ) }
-								</p>
-								<h3 className="font-semibold text-gray-600 text-base mb-1">
-									{ selectedStoreFlowTitle }
-								</h3>
+							<div className="wcf-template-info flex gap-3 items-center">
+								<button
+									type="button"
+									className="p-3 border border-slate-200 rounded hover:border-slate-500 text-gray-400 hover:text-gray-800 "
+									onClick={ showOptionsSideBar }
+								>
+									<ArrowLeftIcon
+										className="w-4 h-4 stroke-2"
+										aria-hidden="true"
+									/>
+								</button>
+
+								<div className="wcf-template-name">
+									<p className="text-[#6B7280]">
+										{ __(
+											'Selected Template:',
+											'cartflows'
+										) }
+									</p>
+									<h3 className="font-semibold text-gray-600 text-base">
+										{ selectedStoreFlowTitle }
+									</h3>
+								</div>
 							</div>
 							<div className="wcf-header-action--buttons flex gap-4">
 								<div className="wcf-design--options flex gap-6">
@@ -394,17 +410,6 @@ function GlobalCheckout() {
 										handleOnchange={ onPaletteChange }
 									/>
 								</div>
-
-								<button
-									type="button"
-									className="p-3 border border-slate-200 rounded hover:border-slate-500 text-gray-400 hover:text-gray-800 "
-									onClick={ showOptionsSideBar }
-								>
-									<XMarkIcon
-										className="w-4 h-4 stroke-2"
-										aria-hidden="true"
-									/>
-								</button>
 							</div>
 						</div>
 					</div>

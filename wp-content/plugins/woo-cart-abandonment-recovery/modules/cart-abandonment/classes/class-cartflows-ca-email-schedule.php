@@ -105,7 +105,7 @@ class Cartflows_Ca_Email_Schedule {
 				$coupon_code = 'DUMMY-COUPON';
 			} else {
 				$override_global_coupon = $email_instance->get_email_template_meta_by_key( $email_data->email_template_id, 'override_global_coupon' );
-				if ( $override_global_coupon->meta_value ) {
+				if ( ! empty( $override_global_coupon ) && ! empty( $override_global_coupon->meta_value ) && $override_global_coupon->meta_value ) {
 					$email_history = $email_instance->get_email_history_by_id( $email_data->email_history_id );
 					$coupon_code   = $email_history->coupon_code;
 				} else {
@@ -446,7 +446,7 @@ class Cartflows_Ca_Email_Schedule {
 			$override_global_coupon = $email_tmpl->get_email_template_meta_by_key( $template->id, 'override_global_coupon' );
 
 			$new_coupon_code = '';
-			if ( $override_global_coupon->meta_value ) {
+			if ( ! empty( $override_global_coupon ) && ! empty( $override_global_coupon->meta_value ) && $override_global_coupon->meta_value ) {
 				$new_coupon_code = $this->generate_coupon_code( $discount_type, $amount, $coupon_expiry_date, $free_shipping, $individual_use );
 			}
 

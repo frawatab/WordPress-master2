@@ -853,7 +853,6 @@ abstract class Abstract_Payment_Gateway extends WC_Payment_Gateway {
 			}
 
 			if ( ! empty( trim( $this->statement_descriptor ) ) ) {
-				$request['statement_descriptor']        = $this->statement_descriptor;
 				$request['statement_descriptor_suffix'] = $this->statement_descriptor;
 			}
 

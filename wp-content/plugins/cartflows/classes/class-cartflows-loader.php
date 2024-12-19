@@ -125,7 +125,7 @@ if ( ! class_exists( 'Cartflows_Loader' ) ) {
 			require_once CARTFLOWS_DIR . '/libraries/action-scheduler/action-scheduler.php';
 
 			add_action( 'plugins_loaded', array( $this, 'load_plugin' ), 99 );
-			add_action( 'plugins_loaded', array( $this, 'load_cf_textdomain' ) );
+			add_action( 'init', array( $this, 'load_cf_textdomain' ) );
 
 		}
 
@@ -140,7 +140,7 @@ if ( ! class_exists( 'Cartflows_Loader' ) ) {
 			define( 'CARTFLOWS_DIR', plugin_dir_path( CARTFLOWS_FILE ) );
 			define( 'CARTFLOWS_URL', plugins_url( '/', CARTFLOWS_FILE ) );
 
-			define( 'CARTFLOWS_VER', '2.1.3' );
+			define( 'CARTFLOWS_VER', '2.1.4' );
 			define( 'CARTFLOWS_SLUG', 'cartflows' );
 			define( 'CARTFLOWS_SETTINGS', 'cartflows_settings' );
 			define( 'CARTFLOWS_NAME', 'CartFlows' );

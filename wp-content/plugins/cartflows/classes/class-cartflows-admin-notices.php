@@ -267,8 +267,7 @@ class Cartflows_Admin_Notices {
 		 * 1. If completed the onboarding steps/process of plugin and sets their first store checkout funnel successfully.
 		 * 2. If sets up the first funnel manually and makes it live.
 		 */
-
-		return ( $is_store_checkout_imported && $onboarding_completed ) || ( $is_first_funnel_imported && 1 >= $total_funnels ) || ( 1 >= $total_funnels );
+		return ( true === $is_store_checkout_imported && true === $onboarding_completed ) || ( true === $is_first_funnel_imported && ! empty( $total_funnels ) && 1 >= $total_funnels ) || ( ! empty( $total_funnels ) && 1 >= $total_funnels );
 	}
 }
 

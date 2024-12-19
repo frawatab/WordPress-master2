@@ -418,7 +418,7 @@ class Payment_Element extends Abstract_Payment_Gateway {
 			}
 
 			if ( ! empty( trim( $this->statement_descriptor ) ) ) {
-				$data['statement_descriptor'] = $this->statement_descriptor;
+				$data['statement_descriptor_suffix'] = $this->statement_descriptor;
 			}
 
 			/* translators: %1$1s order id, %2$2s order total amount. */

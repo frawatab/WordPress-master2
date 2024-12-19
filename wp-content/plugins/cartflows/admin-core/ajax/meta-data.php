@@ -130,6 +130,12 @@ class MetaData extends AjaxBase {
 		foreach ( $product_objects as $product_object ) {
 			$formatted_name = $product_object->get_name();
 			$managing_stock = $product_object->managing_stock();
+			$is_in_stock    = $product_object->is_in_stock();
+
+			// Skip the products which are not in stock and continue the loop.
+			if ( ! $is_in_stock ) {
+				continue;
+			}
 
 			if ( $managing_stock && ! empty( $_GET['display_stock'] ) ) {
 				$stock_amount = $product_object->get_stock_quantity();

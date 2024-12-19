@@ -434,7 +434,6 @@ class Sepa extends Local_Gateway {
 			];
 
 			if ( ! empty( trim( $this->statement_descriptor ) ) ) {
-				$data['statement_descriptor']        = $this->statement_descriptor;
 				$data['statement_descriptor_suffix'] = $this->statement_descriptor;
 			}
 

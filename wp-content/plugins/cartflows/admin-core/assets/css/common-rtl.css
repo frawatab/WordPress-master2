@@ -170,3 +170,7 @@
 .wcf-item.wcf-item__start-from-blank.h-full.bg-white.rounded-lg.relative.start-scratch {
 	min-height: 443px;
 }
+
+.toplevel_page_cartflows .whats-new-rss-flyout.closed {
+	visibility: hidden;
+}

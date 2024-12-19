@@ -1,3 +1,25 @@
+Version 2.1.4 - Tuesday, 10th December 2024
+- New: What’s New Feed: Added a feature to view the latest updates for the CartFlows plugin directly in the dashboard.
+- Improvement: Updated the "Activate License" section to clearly display the license status.
+- Improvement: Excluded "Out of Stock" products from the product list when selecting items for Checkout or Upsell steps.
+- Fix: Resolved an issue where the saved checkmark remained after reopening the Settings popup.
+- Fix: Fixed a problem where selecting inactive page builders redirected users to a blank screen.
+- Fix: Adjusted the "Choose Step" dropdown width to prevent text overflow on smaller screens.
+- Fix: Updated the origin column to show "Direct" for Upsell/Downsell orders instead of "Unknown."
+- Fix: Fixed a UI issue where the border of the discount input field appeared broken.
+- Fix: Resolved an issue where the Save button remained stuck in a loading state when the quantity field was set to 0.
+- Fix: Prevented negative values from being accepted in the percentage discount field.
+- Fix: Fixed a bug where changes were not saved after confirming "Yes" in the save changes popup.
+- Fix: Improved the visibility of the active checkout template and added a clear "Back" button for better navigation.
+- Fix: Resolved a problem where toggle fields did not update immediately without refreshing the page.
+- Fix: Fixed the Scroll to Top icon issue for the Astra theme.
+- Fix: Resolved an incorrect usage error for the _load_textdomain_just_in_time function.
+- Fix: Resolved an issue where shipping options appeared multiple times in the multistep checkout layout.
+- Fix: Fixed a bug preventing the CartFlows funnel landing page from being edited in Bricks Builder when set as the homepage.
+- Fix: Resolved an issue where the NPS survey appeared on fresh installs without any funnels created.
+- Fix: Fixed a spacing issue in the Global Settings popup that caused the Social Tracking accordion to display incorrectly.
+- Deprecated: The Step Note field is now marked as soft-deprecated across all steps.
+
 Version 2.1.3 - Tuesday, 19th November 2024
 - New: Added NPS Survey to gather your valuable feedback!
 - Improvement: Improved the UI of CartFlows in-plugin notices for better user experience.

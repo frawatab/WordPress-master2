@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Starter Templates plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Starter Templates 4.4.7\n"
+"Project-Id-Version: Starter Templates 4.4.8\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/astra-sites\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-11-14T07:28:40+00:00\n"
+"POT-Creation-Date: 2024-11-19T05:46:29+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "X-Domain: astra-sites\n"
@@ -18,7 +18,7 @@ msgstr ""
 #: astra-sites.php
 #: astra-sites.php:36
 #: astra-sites.php:107
-#: inc/classes/class-astra-sites-nps-notice.php:73
+#: inc/classes/class-astra-sites-nps-notice.php:77
 #: inc/classes/class-astra-sites.php:2455
 #: inc/lib/onboarding/class-onboarding-loader.php:83
 #: inc/lib/ai-builder/inc/assets/build/main.js:190
@@ -45,6 +45,45 @@ msgstr ""
 #. Author URI of the plugin
 #: astra-sites.php
 msgid "https://www.brainstormforce.com"
+msgstr ""
+
+#. translators: %s product name
+#: admin/bsf-analytics/class-bsf-analytics.php:216
+msgid "Want to help make <strong>%1s</strong> even more awesome? Allow us to collect non-sensitive diagnostic data and usage information. "
+msgstr ""
+
+#: admin/bsf-analytics/class-bsf-analytics.php:219
+msgid "This will be applicable for all sites from the network."
+msgstr ""
+
+#. translators: %s usage doc link
+#: admin/bsf-analytics/class-bsf-analytics.php:243
+msgid " Know More."
+msgstr ""
+
+#: admin/bsf-analytics/class-bsf-analytics.php:253
+msgid "Yes! Allow it"
+msgstr ""
+
+#: admin/bsf-analytics/class-bsf-analytics.php:264
+msgid "No Thanks"
+msgstr ""
+
+#: admin/bsf-analytics/class-bsf-analytics.php:370
+msgid "Usage Tracking"
+msgstr ""
+
+#. translators: %s Product title
+#: admin/bsf-analytics/class-bsf-analytics.php:414
+msgid "Allow %s products to track non-sensitive usage tracking data."
+msgstr ""
+
+#: admin/bsf-analytics/class-bsf-analytics.php:417
+msgid " This will be applicable for all sites from the network."
+msgstr ""
+
+#: admin/bsf-analytics/class-bsf-analytics.php:422
+msgid "Learn More."
 msgstr ""
 
 #: classes/class-astra-sites-admin.php:109
@@ -130,8 +169,8 @@ msgstr ""
 #: inc/classes/class-astra-sites-importer.php:91
 #: inc/classes/class-astra-sites-importer.php:135
 #: inc/classes/class-astra-sites-importer.php:174
-#: inc/classes/class-astra-sites-importer.php:317
-#: inc/classes/class-astra-sites-importer.php:422
+#: inc/classes/class-astra-sites-importer.php:328
+#: inc/classes/class-astra-sites-importer.php:433
 #: inc/classes/class-astra-sites-page.php:190
 #: inc/classes/class-astra-sites.php:232
 #: inc/classes/class-astra-sites.php:604
@@ -179,49 +218,49 @@ msgid "You are not allowed to perform this action"
 msgstr ""
 
 #. Translators: %s is WP Forms URL.
-#: inc/classes/class-astra-sites-importer.php:329
+#: inc/classes/class-astra-sites-importer.php:340
 msgid "Invalid WPform Request URL - %s"
 msgstr ""
 
-#: inc/classes/class-astra-sites-importer.php:388
+#: inc/classes/class-astra-sites-importer.php:399
 msgid "Invalid JSON file for WP Forms."
 msgstr ""
 
-#: inc/classes/class-astra-sites-importer.php:391
-#: inc/classes/class-astra-sites-importer.php:394
+#: inc/classes/class-astra-sites-importer.php:402
+#: inc/classes/class-astra-sites-importer.php:405
 msgid "There was an error downloading the WP Forms file."
 msgstr ""
 
-#: inc/classes/class-astra-sites-importer.php:453
+#: inc/classes/class-astra-sites-importer.php:464
 msgid "Invalid file for CartFlows flows"
 msgstr ""
 
-#: inc/classes/class-astra-sites-importer.php:456
-#: inc/classes/class-astra-sites-importer.php:459
+#: inc/classes/class-astra-sites-importer.php:467
+#: inc/classes/class-astra-sites-importer.php:470
 msgid "There was an error downloading the CartFlows flows file."
 msgstr ""
 
-#: inc/classes/class-astra-sites-importer.php:462
+#: inc/classes/class-astra-sites-importer.php:473
 msgid "Empty file for CartFlows flows"
 msgstr ""
 
-#: inc/classes/class-astra-sites-nps-notice.php:74
+#: inc/classes/class-astra-sites-nps-notice.php:78
 msgid "How likely are you to recommend #pluginname to your friends or colleagues?"
 msgstr ""
 
-#: inc/classes/class-astra-sites-nps-notice.php:77
+#: inc/classes/class-astra-sites-nps-notice.php:81
 msgid "Thanks a lot for your feedback! 😍"
 msgstr ""
 
-#: inc/classes/class-astra-sites-nps-notice.php:78
+#: inc/classes/class-astra-sites-nps-notice.php:82
 msgid "Could you please do us a favor and give us a 5-star rating on WordPress? It would help others choose Starter Templates with confidence. Thank you!"
 msgstr ""
 
-#: inc/classes/class-astra-sites-nps-notice.php:82
+#: inc/classes/class-astra-sites-nps-notice.php:86
 msgid "Thank you for your feedback"
 msgstr ""
 
-#: inc/classes/class-astra-sites-nps-notice.php:83
+#: inc/classes/class-astra-sites-nps-notice.php:87
 msgid "We value your input. How can we improve your experience?"
 msgstr ""
 
@@ -815,6 +854,7 @@ msgstr ""
 #: inc/classes/class-astra-sites.php:2099
 #: inc/includes/templates.php:78
 #: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:11
 msgid "Dismiss"
 msgstr ""
 
@@ -1020,6 +1060,8 @@ msgstr ""
 #: inc/includes/templates.php:481
 #: inc/lib/ai-builder/inc/assets/build/main.js:2
 #: inc/lib/gutenberg-templates/dist/main.js:2
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:3
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:1
 msgid "Cancel"
 msgstr ""
 
@@ -1044,40 +1086,40 @@ msgstr ""
 msgid "AI Builder"
 msgstr ""
 
-#: inc/lib/ai-builder/ai-builder-plugin-loader.php:406
+#: inc/lib/ai-builder/ai-builder-plugin-loader.php:407
 msgid "Installed! Activating.."
 msgstr ""
 
-#: inc/lib/ai-builder/ai-builder-plugin-loader.php:407
+#: inc/lib/ai-builder/ai-builder-plugin-loader.php:408
 msgid "Activating..."
 msgstr ""
 
-#: inc/lib/ai-builder/ai-builder-plugin-loader.php:408
+#: inc/lib/ai-builder/ai-builder-plugin-loader.php:409
 msgid "Activated!"
 msgstr ""
 
-#: inc/lib/ai-builder/ai-builder-plugin-loader.php:409
+#: inc/lib/ai-builder/ai-builder-plugin-loader.php:410
 msgid "Installing..."
 msgstr ""
 
 #. translators: %1$s: team name, %2$s: plan name
-#: inc/lib/ai-builder/ai-builder-plugin-loader.php:426
+#: inc/lib/ai-builder/ai-builder-plugin-loader.php:427
 msgid "Your current active organization is %1$s, which is on the %2$s plan. You have reached the maximum number of sites allowed to be created on %2$s plan."
 msgstr ""
 
 #. translators: %1$s: team name
 #. translators: %s: team name
-#: inc/lib/ai-builder/ai-builder-plugin-loader.php:435
+#: inc/lib/ai-builder/ai-builder-plugin-loader.php:436
 #: inc/lib/onboarding/assets/dist/onboarding/main.js:143
 msgid "Please upgrade the plan for %s in order to create more sites."
 msgstr ""
 
-#: inc/lib/ai-builder/ai-builder-plugin-loader.php:441
+#: inc/lib/ai-builder/ai-builder-plugin-loader.php:442
 #: inc/lib/onboarding/assets/dist/onboarding/main.js:143
 msgid "Unlock Full Power"
 msgstr ""
 
-#: inc/lib/ai-builder/ai-builder-plugin-loader.php:444
+#: inc/lib/ai-builder/ai-builder-plugin-loader.php:445
 #: inc/lib/ai-builder/inc/assets/build/main.js:194
 msgid "Contact Support"
 msgstr ""
@@ -1290,6 +1332,7 @@ msgstr ""
 #: inc/lib/gutenberg-templates/inc/importer/plugin.php:269
 #: inc/lib/gutenberg-templates/inc/importer/plugin.php:273
 #: inc/lib/gutenberg-templates/inc/importer/plugin.php:436
+#: inc/lib/zip-ai/classes/sidebar-configurations.php:250
 #: inc/lib/ai-builder/inc/assets/build/main.js:183
 msgid "Something went wrong"
 msgstr ""
@@ -1304,18 +1347,22 @@ msgid "Design Library"
 msgstr ""
 
 #: inc/lib/gutenberg-templates/inc/traits/helper.php:222
+#: inc/lib/zip-ai/classes/helper.php:151
 msgid "The Zip AI Endpoint was not declared"
 msgstr ""
 
 #: inc/lib/gutenberg-templates/inc/traits/helper.php:232
+#: inc/lib/zip-ai/classes/helper.php:161
 msgid "The Zip AI Auth Token is not set."
 msgstr ""
 
 #: inc/lib/gutenberg-templates/inc/traits/helper.php:254
+#: inc/lib/zip-ai/classes/helper.php:196
 msgid "The Zip AI Middleware is not responding."
 msgstr ""
 
 #: inc/lib/gutenberg-templates/inc/traits/helper.php:264
+#: inc/lib/zip-ai/classes/helper.php:206
 msgid "The Zip AI Middleware encountered an error."
 msgstr ""
 
@@ -1406,6 +1453,10 @@ msgstr ""
 
 #: inc/lib/starter-templates-importer/importer/st-importer.php:144
 msgid "Id is empty."
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/st-importer.php:156
+msgid "Account is already created."
 msgstr ""
 
 #: inc/lib/starter-templates-importer/importer/st-importer.php:179
@@ -1611,6 +1662,39 @@ msgstr ""
 
 #: inc/lib/starter-templates-importer/importer/wxr-importer/st-wxr-importer.php:833
 msgid "Import complete!"
+msgstr ""
+
+#. translators: %1$s: HTML link start tag, %2$s: HTML link end tag.
+#: inc/lib/zip-ai/classes/admin-configurations.php:513
+msgid "Thank you for using %1$sZip AI.%2$s"
+msgstr ""
+
+#: inc/lib/zip-ai/classes/helper.php:225
+msgid "The ZipWP Endpoint was not declared"
+msgstr ""
+
+#: inc/lib/zip-ai/classes/helper.php:235
+msgid "The ZipWP Token is not set."
+msgstr ""
+
+#: inc/lib/zip-ai/classes/helper.php:259
+msgid "The ZipWP API server is not responding."
+msgstr ""
+
+#: inc/lib/zip-ai/classes/helper.php:269
+msgid "The ZipWP API server encountered an error."
+msgstr ""
+
+#: inc/lib/zip-ai/classes/sidebar-configurations.php:185
+msgid "The message array was not supplied"
+msgstr ""
+
+#: inc/lib/zip-ai/classes/sidebar-configurations.php:264
+msgid "Invalid auth token."
+msgstr ""
+
+#: inc/lib/zip-ai/classes/sidebar-configurations.php:265
+msgid "You have no credits left."
 msgstr ""
 
 #: inc/lib/zipwp-images/classes/zipwp-images-api.php:272
@@ -2328,10 +2412,12 @@ msgid "All orientations"
 msgstr ""
 
 #: inc/lib/ai-builder/inc/assets/build/main.js:194
+#: inc/lib/zipwp-images/dist/main.js:1
 msgid "Landscape"
 msgstr ""
 
 #: inc/lib/ai-builder/inc/assets/build/main.js:194
+#: inc/lib/zipwp-images/dist/main.js:1
 msgid "Portrait"
 msgstr ""
 
@@ -2674,6 +2760,7 @@ msgstr ""
 
 #: inc/lib/ai-builder/inc/assets/build/main.js:207
 #: inc/lib/gutenberg-templates/dist/main.js:2
+#: inc/lib/zipwp-images/dist/main.js:1
 msgid "Clear"
 msgstr ""
 
@@ -2702,6 +2789,7 @@ msgstr ""
 
 #: inc/lib/ai-builder/inc/assets/build/main.js:207
 #: inc/lib/gutenberg-templates/dist/main.js:2
+#: inc/lib/zipwp-images/dist/main.js:4
 msgid "Try to refine your search."
 msgstr ""
 
@@ -3250,6 +3338,7 @@ msgid "Buy AI Credits"
 msgstr ""
 
 #: inc/lib/gutenberg-templates/dist/main.js:2
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:3
 msgid "Revoke Access"
 msgstr ""
 
@@ -3262,6 +3351,7 @@ msgid "You will need to re-authorize Zip to use it again."
 msgstr ""
 
 #: inc/lib/gutenberg-templates/dist/main.js:2
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:3
 msgid "Revoke"
 msgstr ""
 
@@ -3533,7 +3623,20 @@ msgid "Let's Start"
 msgstr ""
 
 #: inc/lib/gutenberg-templates/dist/main.js:2
+#: inc/lib/gutenberg-templates/inc/block/dist/index.js:1
 msgid "Build using AI"
+msgstr ""
+
+#: inc/lib/gutenberg-templates/inc/block/dist/index.js:1
+msgid "Spectra AI Block"
+msgstr ""
+
+#: inc/lib/gutenberg-templates/inc/block/dist/index.js:1
+msgid "Eu lectus mauris vulputate et sem consequat ornare. Et consectetur sagittis faucibus eget."
+msgstr ""
+
+#: inc/lib/gutenberg-templates/inc/block/dist/index.js:1
+msgid "Template Kits"
 msgstr ""
 
 #: inc/lib/onboarding/assets/dist/main.js:73
@@ -4109,6 +4212,10 @@ msgid "Experience the future of website building. We offer AI features powered b
 msgstr ""
 
 #: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "Try the New AI Builder"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
 msgid "What's New?"
 msgstr ""
 
@@ -4159,15 +4266,19 @@ msgid "Add your own logo, change color and font."
 msgstr ""
 
 #: inc/lib/onboarding/assets/dist/onboarding/main.js:138
-msgid "It looks like you already have a website made with Starter Templates. Enable this to maintain your old data, including content and images."
+msgid "It looks like you already have a website created with Starter Templates. Check this box to keep your existing content and images."
 msgstr ""
 
 #: inc/lib/onboarding/assets/dist/onboarding/main.js:138
-msgid "I understand, let's go!"
+msgid "Keep existing data!"
 msgstr ""
 
 #: inc/lib/onboarding/assets/dist/onboarding/main.js:138
 msgid "This will overwrite your site settings and add new content. You might want to backup your site before proceeding."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "I understand, let's go!"
 msgstr ""
 
 #. translators: %1$s: team name, %2$s: plan name
@@ -4267,6 +4378,694 @@ msgstr ""
 
 #: inc/lib/onboarding/assets/dist/onboarding/main.js:174
 msgid "Connect with your website visitors for free"
+msgstr ""
+
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:1
+msgid "Get Started Now"
+msgstr ""
+
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:1
+msgid "Go back to the dashboard"
+msgstr ""
+
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:1
+msgid "Welcome to the Zip AI Setup Wizard!"
+msgstr ""
+
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:1
+msgid "Zip AI is your WordPress assistant, accessible right within your backend. Create persuasive content, generate custom code, and get answers to your WordPress queries in seconds. The possibilities are endless!"
+msgstr ""
+
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:1
+msgid "Craft Compelling Content"
+msgstr ""
+
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:1
+msgid "With Zip, you can effortlessly create persuasive, engaging copy that resonates with your audience."
+msgstr ""
+
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:1
+msgid "AI-Powered Block Patterns"
+msgstr ""
+
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:1
+msgid "Zip can personalize and customize the block patterns and section templates tailored to your website's unique needs."
+msgstr ""
+
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:1
+msgid "WordPress Wizardry"
+msgstr ""
+
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:1
+msgid "Got questions? Zip has the answers. Whether it's troubleshooting, or customizing your site, Zip has your back."
+msgstr ""
+
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:1
+msgid "Personalized Templates"
+msgstr ""
+
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:1
+msgid "Say goodbye to generic designs and say hello to Zip's personalized page templates, tailored just for you."
+msgstr ""
+
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:1
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:11
+msgid "Generate Custom Code"
+msgstr ""
+
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:1
+msgid "No more struggling with complex coding issues. Zip can whip up custom code, functions, and CSS tailored to your needs."
+msgstr ""
+
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:1
+msgid "Custom Pages with AI"
+msgstr ""
+
+#. translators: %s: Percentage Ascii Code
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:2
+msgid "With Zip AI by your side, you can create beautiful, 100%s custom web pages without the need for any design or coding skills."
+msgstr ""
+
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:2
+msgid "From the Team Behind Some Iconic WordPress Products"
+msgstr ""
+
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:2
+msgid "Visit Website"
+msgstr ""
+
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:2
+msgid "Words Written"
+msgstr ""
+
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:2
+msgid "Get more Credits"
+msgstr ""
+
+#. translators: %s: number of words
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:3
+msgid "of %s"
+msgstr ""
+
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:3
+msgid "Enable Zip AI"
+msgstr ""
+
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:3
+msgid "You can easily enable or disable Zip AI from this section. Simply toggle the switch on or off with a single click."
+msgstr ""
+
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:3
+msgid "Zip is Authorized"
+msgstr ""
+
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:3
+msgid "Your website is connected to AI. You can disconnect at any time."
+msgstr ""
+
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:3
+msgid "Are you sure you want to disconnect?"
+msgstr ""
+
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:3
+msgid "You will need to reconnect to use AI features again."
+msgstr ""
+
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:3
+msgid "Default route fallback"
+msgstr ""
+
+#: inc/lib/zip-ai/admin/dashboard-app/build/dashboard-app.js:3
+msgid "Zip - Your AI Assistant"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:1
+msgid "Content:"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:1
+msgid "You:"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:1
+msgid "Edit"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:1
+msgid "AI Assistant:"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:1
+msgid "Use This"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:1
+msgid "Copy & Close"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:1
+msgid "Copy"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:1
+msgid "Regenerate"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:1
+msgid "Update"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:1
+msgid "Note: All subsequent messages will be deleted after you update."
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:1
+msgid "Click Here"
+msgstr ""
+
+#. translators: %1$d is the current page, %2$d is the total number of pages.
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:3
+msgid "%1$d / %2$d"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:3
+msgid "Generating…"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:3
+msgid "How can I help you?"
+msgstr ""
+
+#. Translators: %1$s is the opening link tag, %2$s is the closing link tag.
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "AI Assistant can make mistakes. Want to %1$sdisable it?%2$s"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "AI Assistant can make mistakes."
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Write for me"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Clear Chat"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Arabic"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Azerbaijani"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Bengali"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Belarusian"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Bulgarian"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Chinese (Simplified)"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Croatian"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Czech"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Danish"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Dutch"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "English"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Estonian"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Finnish"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Filipino"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "French"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Georgian"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "German"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Greek"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Hebrew"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Hindi"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Hungarian"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Indonesian"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Italian"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Japanese"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Kazakh"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Korean"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Latvian"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Lithuanian"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Macedonian"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Malay"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Norwegian"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Polish"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Portuguese"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Romanian"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Russian"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Serbian"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Slovak"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Slovenian"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Spanish"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Swahili"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Swedish"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Thai"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Turkish"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Ukrainian"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Urdu"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Vietnamese"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Friendly"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Formal"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Casual"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Professional"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Informative"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Playful"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Serious"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Humorous"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Polite"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Emotional"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Fix any grammatical mistakes."
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Make it longer."
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:5
+msgid "Make it shorter."
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:6
+msgid "Change tone to %s."
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:6
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:11
+msgid "Rephrase"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:6
+msgid "Draft with AI"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:6
+msgid "Write an attractive heading about…"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:6
+msgid "Write an attractive heading about "
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:6
+msgid "Write a sub-heading for…"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:6
+msgid "Write a sub-heading for "
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:6
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:11
+msgid "Fix Grammar"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:6
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:11
+msgid "Make Longer"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:6
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:11
+msgid "Make Shorter"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:6
+msgid "Tone"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:6
+msgid "Translate"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:7
+msgid "Translate to %s."
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:7
+msgid "Paste from clipboard"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:7
+msgid "Reconnect and Continue Using AI Features"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:7
+msgid "Get Started with 1000 Free Monthly Credits"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:7
+msgid "Reconnecting…"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:7
+msgid "Getting Started…"
+msgstr ""
+
+#. Translators: %1$s is the opening link tag, %2$s is the closing link tag.
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:9
+msgid "Get started from %1$shere%2$s."
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:9
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:11
+msgid "The possibilities are endless!"
+msgstr ""
+
+#. translators: %s: Plugin Name
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:10
+msgid "Build 10x Faster with %s AI"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:10
+msgid "Build 10x Faster with ZipWP"
+msgstr ""
+
+#. translators: %s: Plugin Name
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:11
+msgid "%s offers AI features powered by ZipWP to help you build your website 10 times faster."
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:11
+msgid "ZipWP offers AI features to help you build your website 10 times faster."
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:11
+msgid "Translate Your Pages"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:11
+msgid "Write Content for Pages"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:11
+msgid "Customize Templates"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:11
+msgid "Craft Product Descriptions"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:11
+msgid "Engage with Comments"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:11
+msgid "Something went wrong, please try again."
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:11
+msgid "Get Ready!"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:11
+msgid "Learn more"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:11
+msgid "Hi there! I'm here to assist you."
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:11
+msgid "Choose a prompt bellow or write on your own. Ask me about what you need."
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:11
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:12
+msgid "AI Assistant"
+msgstr ""
+
+#. translators: %s: lastUsedTone label
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:12
+msgid "Change Tone to %s"
+msgstr ""
+
+#: inc/lib/zip-ai/sidebar/build/sidebar-app.js:12
+msgid "Something Else"
+msgstr ""
+
+#: inc/lib/zipwp-images/dist/main.js:1
+msgid "Red"
+msgstr ""
+
+#: inc/lib/zipwp-images/dist/main.js:1
+msgid "Orange"
+msgstr ""
+
+#: inc/lib/zipwp-images/dist/main.js:1
+msgid "Yellow"
+msgstr ""
+
+#: inc/lib/zipwp-images/dist/main.js:1
+msgid "Green"
+msgstr ""
+
+#: inc/lib/zipwp-images/dist/main.js:1
+msgid "Blue"
+msgstr ""
+
+#: inc/lib/zipwp-images/dist/main.js:1
+msgid "Pink"
+msgstr ""
+
+#: inc/lib/zipwp-images/dist/main.js:1
+msgid "Brown"
+msgstr ""
+
+#: inc/lib/zipwp-images/dist/main.js:1
+msgid "Black"
+msgstr ""
+
+#: inc/lib/zipwp-images/dist/main.js:1
+msgid "Gray"
+msgstr ""
+
+#: inc/lib/zipwp-images/dist/main.js:1
+msgid "White"
+msgstr ""
+
+#: inc/lib/zipwp-images/dist/main.js:1
+msgid "Turquoise"
+msgstr ""
+
+#: inc/lib/zipwp-images/dist/main.js:1
+msgid "Lilac"
+msgstr ""
+
+#: inc/lib/zipwp-images/dist/main.js:1
+msgid "Violet"
+msgstr ""
+
+#: inc/lib/zipwp-images/dist/main.js:1
+msgid "Grayscale"
+msgstr ""
+
+#: inc/lib/zipwp-images/dist/main.js:1
+msgid "Transparent"
+msgstr ""
+
+#: inc/lib/zipwp-images/dist/main.js:1
+msgid "Color"
+msgstr ""
+
+#: inc/lib/zipwp-images/dist/main.js:1
+msgid "All Orientation"
+msgstr ""
+
+#: inc/lib/zipwp-images/dist/main.js:1
+msgid "Square"
+msgstr ""
+
+#: inc/lib/zipwp-images/dist/main.js:1
+msgid "Clear filter"
+msgstr ""
+
+#. translators: %s: search keyword
+#: inc/lib/zipwp-images/dist/main.js:4
+msgid "Sorry, we couldn't find anything for “%s”."
+msgstr ""
+
+#: inc/lib/zipwp-images/dist/main.js:4
+msgid "End of the search results."
+msgstr ""
+
+#: inc/lib/zipwp-images/dist/main.js:4
+msgid "Image Details"
+msgstr ""
+
+#: inc/lib/zipwp-images/dist/main.js:4
+msgid "Orientation"
+msgstr ""
+
+#: inc/lib/zipwp-images/dist/main.js:4
+msgid "Choose a size:"
+msgstr ""
+
+#: inc/lib/zipwp-images/dist/main.js:4
+msgid "Back to All Images"
 msgstr ""
 
 #: inc/lib/gutenberg-templates/inc/block/dist/block.json

@@ -15,6 +15,8 @@ function FooterNavigationBar( props ) {
 	const query = new URLSearchParams( useLocation().search );
 	const currentActiveStep = query.get( 'step' );
 
+	const defaultNextButtonString = __( 'Next', 'cartflows' );
+
 	const history = useHistory();
 
 	const handlePreviousStep = function () {
@@ -66,6 +68,20 @@ function FooterNavigationBar( props ) {
 		}
 	};
 
+	const getNextButtonString = function () {
+		const stepsToSkip = [ 'ready', 'store-checkout', 'optin' ];
+
+		if ( '' !== nextStep && ! stepsToSkip.includes( currentActiveStep ) ) {
+			return defaultNextButtonString;
+		} else if (
+			( '' !== nextStep && 'store-checkout' === currentActiveStep ) ||
+			'optin' === currentActiveStep
+		) {
+			return __( 'Skip', 'cartflows' );
+		}
+		return __( 'Finish Store Setup', 'cartflows' );
+	};
+
 	return (
 		<>
 			<footer className="wcf-setup-footer bg-white shadow-md-1 fixed inset-x-0 bottom-0 h-[70px] z-10">
@@ -111,9 +127,7 @@ function FooterNavigationBar( props ) {
 									: ''
 							}` }
 						>
-							{ '' !== nextStep && 'ready' !== currentActiveStep
-								? __( 'Next', 'cartflows' )
-								: __( 'Finish Store Setup', 'cartflows' ) }
+							{ getNextButtonString() }
 						</button>
 					</div>
 				</div>

@@ -111,7 +111,7 @@ class CPSW_Loader {
 		add_filter( 'plugin_action_links_' . CPSW_BASE, [ $this, 'action_links' ] );
 		add_action( 'before_woocommerce_init', [ $this, 'compatibility_declaration' ] );
 		add_action( 'woocommerce_init', [ $this, 'frontend_scripts' ] );
-		add_action( 'plugins_loaded', [ $this, 'load_cpsw_textdomain' ] );
+		add_action( 'init', [ $this, 'load_cpsw_textdomain' ] );
 		add_action( 'woocommerce_blocks_loaded', [ $this, 'woocommerce_block_supports' ] );
 
 		if ( is_admin() ) {
